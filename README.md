@@ -50,7 +50,7 @@ Reports	Generate transaction and activity reports
 Admin Module	Monitor users and transactions
 
 6. Non-Functional Requirements :
-8. 
+
 Security -  Sensitive card information must be protected.
 
 Performance -  Transactions should be processed with minimal delay.
@@ -64,7 +64,7 @@ Availability -  The application should remain accessible when required.
 Usability -  The interface should be simple and intuitive.
 
 6. System Architecture
-7. 
+
 A typical architecture can be:
 
         User
@@ -86,7 +86,7 @@ Service   Service   Detection
    Payment Gateway / Bank
 
 8. Database Design
-9. 
+   
 Possible tables include:
 
 Users
@@ -161,7 +161,7 @@ Resolution_Status
 
 
 8. Transaction Workflow
-9. 
+   
 User initiates transaction
           ↓
 Validate request
@@ -182,7 +182,7 @@ Display transaction status
 
 
 11. Use Cases
-12. 
+    
 Customer
 
 Login
@@ -213,7 +213,7 @@ Review fraud alerts
 
 
 10. Advantages -
-11. 
+    
 Faster transaction processing.
 
 Centralized transaction management.
@@ -228,7 +228,7 @@ Reduced manual processing.
 
 
 11. Limitations -
-12. 
+    
 Requires secure payment infrastructure.
 
 Depends on external payment/banking services for authorization.
@@ -239,7 +239,7 @@ Requires strong protection of user and financial data.
 
 
 12. Future Enhancements -
-13. 
+    
 Machine-learning-based fraud detection.
 
 Real-time transaction notifications.
